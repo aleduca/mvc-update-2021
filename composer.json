@@ -1,0 +1,25 @@
+{
+    "name": "alexandreeduardocardoso/mvc-update",
+    "description":"MVC 2021",
+    "authors": [
+        {
+            "name": "Alexandre Cardoso",
+            "email": "alecar2007@gmail.com"
+        }
+    ],
+    "require": {
+        "filp/whoops": "^2.11"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\":"app"
+        },
+        "files": [
+            "app/helpers/exception.php",
+            "app/helpers/constants.php",
+            "app/helpers/flash.php",
+            "app/helpers/redirect.php",
+            "app/helpers/session.php"
+        ]
+    }
+}
