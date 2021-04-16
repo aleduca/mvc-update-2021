@@ -1,2 +1,4 @@
 vendor
 .DS_STORE
+.idea
+.php_cs_cache
